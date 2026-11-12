@@ -1,6 +1,6 @@
-# Simulador de un vehículo en una curva
+# RaceLine — simulador de curvas en circuito
 
-Simulación interactiva para analizar si un automóvil mantiene adherencia al tomar una curva horizontal.
+Herramienta interactiva para estimar si un vehículo de competición conserva adherencia en cada curva de un circuito esquemático.
 
 ## Modelo físico
 
@@ -10,6 +10,13 @@ Simulación interactiva para analizar si un automóvil mantiene adherencia al to
 - Condición de seguridad: `Ff ≥ Fc`
 - Velocidad máxima: `vmax = √(μgr)`
 
-## Uso
+## Escenarios y uso
 
-Abre `index.html` en cualquier navegador moderno. Ajusta los controles para modificar la masa, velocidad, radio, fricción y gravedad. La animación y las gráficas se actualizan de inmediato.
+Abre `index.html` en cualquier navegador moderno.
+
+1. Escoge un escenario: F1, NASCAR, MotoGP, Le Mans o carretera.
+2. Selecciona una curva del circuito (C1–C5).
+3. Ajusta la masa, velocidad de entrada, fricción o gravedad para calcular el límite de cada vértice.
+
+Los valores de cada escenario son aproximaciones educativas y no sustituyen un modelo de dinámica vehicular con carga aerodinámica, transferencia de peso, peralte y telemetría real.
+
